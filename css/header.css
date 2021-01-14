@@ -1,0 +1,63 @@
+/*Informacoes basicas: como contato e horario de funcionamento*/
+header .info-basic {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    background: #51b8a7;
+    font-family: 'Oswald';    
+    padding: 20px;
+}
+
+header .info-basic a {
+    display: inline-block;
+    position: obsolute;
+    left: 0;
+    text-decoration: none;
+    color: white;
+    margin: 0 0 0 10em;
+}
+
+header .info-basic p {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    color: white;
+    margin: 0 10em 0 0;
+}
+
+/*Estilizacao da logo mara da clinica*/
+header .img-logo-clinica {
+    display: block;
+    width: 25%;
+    margin: 15px auto 15px auto;
+}
+
+/*Estilizando a barra de navegacao principal da clinica*/
+header .nav-bar {
+    width: 100%;
+    height: 4em;
+    background: #51b8a7;
+}
+
+header .nav-bar .lista-nav {
+    width: 980px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+header .nav-bar .lista-nav li {
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    font-family: "Oswald";
+    font-size: 1.4em;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+header .nav-bar .lista-nav li:hover {
+    transition: 0.3s;
+    font-size: 1.5em;
+    background-color: rgba(61, 164, 147, 0.5);
+    border-radius: 10px;
+}
